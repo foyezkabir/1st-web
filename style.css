@@ -1,0 +1,50 @@
+*{
+    background-color:white ;
+}
+
+h1{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: crimson;
+    width: 15%;  
+}
+img{
+    width: 70%;
+}
+
+p{
+    color: black;
+    
+}
+#masala{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+.nice{
+    color: chartreuse;
+}
+h2.nice{
+    font-family: fantasy;
+}
+.fof{
+    color: coral;
+}
+.frnd{
+    /* background-color: lightgrey; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px double dimgrey;
+    border-radius: 10px;
+    margin: 1px;
+    width: 30%;
+    padding: 20px;
+    float: left;
+
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
