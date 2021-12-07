@@ -1,7 +1,12 @@
 *{
     background-color:white ;
 }
-
+h3{
+    padding: 0px;
+}
+p{
+    padding: 0px;
+}
 h1{
     color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,6 +14,7 @@ h1{
     background-color: crimson;
     width: 15%;  
 }
+
 img{
     width: 70%;
 }
@@ -17,6 +23,7 @@ p{
     color: black;
     
 }
+
 #masala{
     color: red;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,7 +39,7 @@ h2.nice{
     color: coral;
 }
 .frnd{
-    /* background-color: lightgrey; */
+    background-color: lightgrey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 1px double dimgrey;
     border-radius: 10px;
@@ -48,3 +55,78 @@ h3{
 p{
     text-align: justify;
 }
+
+/* <!-- specificity --> */
+
+h5{
+    color: navy;
+}
+.bro{
+    color: olive;
+}
+#yobro{
+    color: orchid;
+}
+
+/* css overflow */
+
+.overf{     
+    /* overflow: auto; */
+    overflow: scroll;
+    /* overflow: visible;
+    overflow: hidden; */
+}
+
+/* pseudo code and pseudo element */
+
+h4{
+    color: greenyellow;
+}
+
+.effect:hover{
+    color: rebeccapurple;
+    font-size: 20px;
+    width: 30%;
+    background-color: royalblue;
+}
+
+input:focus{
+    color: red;
+}
+
+li:nth-child(2n+1){
+    color: sienna;
+    background-color: tan;
+}
+a:visited{
+    color: teal;
+}
+
+.effect::after{
+    content: " yo boi";
+}
+
+/* position: initial one is - static*/
+
+.classify{
+    background-color: yellow;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+#first{
+    background-color: navy;
+    /* position: absolute; */
+    /* left: 100px; */
+}
+#second{
+    background-color: tomato;
+    position: relative;
+    left: 100px;
+}
+#third{
+    background-color: thistle;
+    /* position: fixed;
+    left=100px; */
+
